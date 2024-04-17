@@ -1897,9 +1897,20 @@ ul.features-list-hero li i.blue {
 		display: none;
 	}
 
+	.navbar:not(.opaque) .navbar-collapse {
+		background: -webkit-linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+	}
+
 	.small-nav {
 		display: block;
 		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	.small-nav .discover-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
 	}
 }
