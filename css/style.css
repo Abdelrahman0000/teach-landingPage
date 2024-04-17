@@ -532,6 +532,20 @@ iframe {
 	color: #fff !important;
 }
 
+.small-nav {
+	display: none;
+}
+
+.navbar-collapse {
+	display: flex;
+}
+
+.big-nav {
+	display: flex;
+	direction: rtl;
+	margin-left: auto;
+}
+
 /* ========================================================== */
 /* 			                03. FOOTER                        */
 /* ========================================================== */
@@ -1879,7 +1893,15 @@ ul.features-list-hero li i.blue {
 		background-color: #9f9f9f !important;
 	}
 
+	.big-nav {
+		display: none;
+	}
 
+	.small-nav {
+		display: block;
+		width: 100%;
+
+	}
 }
 
 @media (max-width: 767px) {
