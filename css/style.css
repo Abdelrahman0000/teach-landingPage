@@ -425,6 +425,15 @@ iframe {
 	color: #fff !important;
 }
 
+#logo {
+	margin: 0px 0px 0px 15px;
+
+}
+
+#logo img {
+	width: 150px;
+}
+
 .navbar-fixed-top.opaque .navbar-brand {
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
@@ -1893,6 +1902,10 @@ ul.features-list-hero li i.blue {
 
 	.navbar-default .navbar-toggle {
 		border-color: #9f9f9f !important;
+	}
+
+	#logo img {
+		width: 115px;
 	}
 
 	.navbar-default .navbar-toggle .icon-bar {
